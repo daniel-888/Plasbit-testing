@@ -1,0 +1,138 @@
+.transfer {
+	background-size: cover;
+	clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+	margin-top: -200px;
+	padding: 220px 0 220px;
+}
+
+.transfer_inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.transfer_img {
+	position: relative;
+	width: 46%;
+	display: flex;
+	align-items: center;
+}
+
+.bank_img {
+	width: 80%;
+	position: relative;
+}
+
+.bank_img img {
+	width: 90%;
+	position: relative;
+	z-index: 1;
+}
+
+.bank_img .circle_bg {
+	position: absolute;
+	content: "";
+	top: -67%;
+	left: -80%;
+	width: 250%;
+	height: 250%;
+	animation: circle 46s linear infinite;
+	z-index: -1;
+}
+
+@keyframes circle {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.transfer_img .coin_1,
+.transfer_img .coin_2,
+.transfer_img .coin_3,
+.transfer_img .coin_4,
+.transfer_img .coin_5,
+.transfer_img .coin_6 {
+	position: absolute;
+	pointer-events: none;
+}
+
+.transfer_img .coin_2 {
+	z-index: 2;
+}
+
+.transfer_content {
+	width: 50%;
+}
+
+@media (max-width: 768px) {
+
+	.transfer {
+		clip-path: polygon(0% 8%, 100% 0%, 100% 92%, 0% 100%);
+		margin-top: -100px;
+		padding: 150px 0;
+	}
+
+	.transfer_inner {
+		flex-direction: column;
+	}
+
+	.transfer_img {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.transfer_img .coin_1 {
+		width: 67px;
+		margin-left: 50px;
+	}
+
+	.transfer_img .coin_2 {
+		width: 72px;
+		margin-right: -30px;
+		margin-top: -10px;
+	}
+
+	.transfer_img .coin_3 {
+		width: 67px;
+		margin-right: -20px;
+	}
+
+	.transfer_img .coin_4 {
+		width: 84px;
+		margin-bottom: -30px;
+	}
+
+	.transfer_img .coin_5 {
+		width: 86px;
+		margin-left: 100px;
+	}
+
+	.transfer_img .coin_6 {
+		width: 66px;
+		margin-left: 50px;
+	}
+
+
+	.bank_img {
+		text-align: center;
+	}
+
+	.bank_img img {
+		width: 80%
+	}
+
+	.bank_img .circle_bg {
+		top: -41%;
+		left: -49%;
+		width: 200%;
+		height: 200%;
+	}
+
+	.transfer_content {
+		width: 100%;
+		margin-top: 150px;
+	}
+}

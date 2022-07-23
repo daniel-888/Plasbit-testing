@@ -1,0 +1,27 @@
+.new_card_accordion {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px #1890FF0D;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.new_card_accordion .accordion_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 25px;
+    cursor: pointer;
+}
+
+.new_card_accordion .accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+.new_card_accordion .rotate {
+    transform: rotate(90deg);
+}
+
+.new_card_accordion .accordion_content {
+    transition: max-height 0.6s ease;
+    overflow: hidden;
+}

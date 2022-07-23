@@ -1,0 +1,93 @@
+.transfer_sixth {
+    margin-top: -182px;
+    padding: 250px 0;
+    clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%);
+    background-size: cover;
+}
+
+.transfer_sixth .steps {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.transfer_sixth .step {
+    width: 300px;
+}
+
+.transfer_sixth .step img {
+    height: 136px;
+}
+
+.transfer_sixth .font_15 {
+    letter-spacing: -0.5px;
+}
+
+.transfer_sixth .myarrow {
+    transform: rotate(90deg);
+}
+
+.transfer_sixth .line {
+    border-right: 3px dashed var(--lightBlue);
+    display: inline-block;
+    height: 100px;
+}
+
+.transfer_sixth .arrow {
+    position: absolute;
+    top: -10px;
+    bottom: 0;
+    height: 10px;
+    border-right: 3px solid var(--lightBlue);
+    display: inline-block;
+}
+
+.transfer_sixth .right {
+    left: 3px;
+    transform: rotate(-45deg);
+}
+
+.transfer_sixth .left {
+    right: 3px;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+    .transfer_sixth {
+        clip-path: polygon(0% 0%, 100% 4%, 100% 100%, 0% 96%);
+        padding: 50px 0 120px;
+        margin-top: 0;
+    }
+
+    .transfer_sixth .title {
+        width: 222px;
+        margin: 0 auto;
+    }
+
+    .transfer_sixth .steps {
+        flex-direction: column;
+    }
+
+    .transfer_sixth .myarrow {
+        transform: rotate(180deg);
+    }
+
+    .transfer_sixth .myarrow .left {
+        right: auto;
+        margin-left: -3px;
+    }
+
+    .transfer_sixth .myarrow .right {
+        left: auto;
+        margin-right: 5px;
+    }
+
+    .transfer_sixth .myarrow .line {
+        height: 80px;
+    }
+
+    .transfer_sixth .step {
+        margin-top: 50px;
+    }
+}

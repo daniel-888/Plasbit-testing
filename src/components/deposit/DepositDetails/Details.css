@@ -1,0 +1,41 @@
+.deposit_details {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.deposit_details .tabs {
+    display: flex;
+    border-bottom: 1px solid var(--grey);
+}
+
+.deposit_details .tab {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.deposit_details .tab.active {
+    color: var(--lightBlue);
+    border-bottom: 3px solid var(--lightBlue);
+}
+
+.deposit_details .content {
+    margin-top: 0;
+}
+
+.deposit_details .content>div {
+    padding: 20px 0;
+    display: flex;
+}
+
+.deposit_details .left {
+    width: 50%;
+    padding: 20px;
+    background: var(--bgDashboard);
+    border-radius: 8px;
+}
+
+.deposit_details .right {
+    width: 50%;
+}

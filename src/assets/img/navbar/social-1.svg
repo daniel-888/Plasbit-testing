@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<title>футер</title>
+	<defs>
+		<image  width="36" height="36" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер">
+		<g id="мережі">
+			<use id="Layer 39" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,12 @@
+.coinChartContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.coinChartCoinIcon {
+    height: 20px;
+}
+
+.coinChartGraphContainer {
+    height: 100px;
+}

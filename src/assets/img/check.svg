@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>2</title>
+	<defs>
+		<image width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABxklEQVRIS7WWwVnbQBCF/4EDV1+CfCQd4AqCOzAVgDtgK0hSwboDmwriDhAVQAf4iM0BXzlEk2+WlbNSLEv5Pnlv0q7eezP7ZkbCgfXF6+UJ3ACXwFXtaA48F3D/5uS5CUb2bURgvwe0CScvwO0j+ocg83oHGHi5VsBS4fEEtvaygIHAN2ACXCRn3drJLFVRITj3Ohe4jQdWAj9fnSwOpXHo9Vbhe0I0Wztx5Tc7gpry/AOut06C4rY18Do4g18xpfnaybhCEHP+FF9WDrSBp/smsoA8vYsQQeb1IbKvPmDUVXkXcknVC0zbct4FtHLJmVdzjDlntXby9X8ATNwpTH7DsqkWJElP5fbbiGLkllqzrLntx75vjEBtQ+F642TZBmz7KTiwLWB8KIJAIDB+dWLlX1mZ1/dYXAGkC/jQ64VCcOUughaCgSkVcPpZ5eG5SfnQ65WCpe8vQVOKaorL6A6m5dzrRD4LLxCUNdB4yV3SUiu40pm5EXSyaRdLliSZ15fYm2a9F1psfvNojFGvrSI2PXOPtfDQ0wJBj82uvE+bGSOz9THatWneDZ7eB47CYuNkWpkH9Z5+tJFZEh116KfR9PHb8ge1wxRvYUpK0gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="2">
+		<g id="маркери">
+			<use id="Layer 38" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

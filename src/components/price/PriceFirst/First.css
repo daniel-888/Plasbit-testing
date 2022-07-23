@@ -1,0 +1,12 @@
+.price_first {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.price_first .slick-slide {
+    padding: 10px;
+}
+
+.price_first button {
+    display: none !important;
+}

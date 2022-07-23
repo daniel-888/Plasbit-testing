@@ -1,0 +1,140 @@
+.transfer_fifth {
+    background: #0a2f54;
+    clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%);
+    padding: 250px 0;
+}
+
+.transfer_fifth .title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transfer_fifth .select {
+    color: var(--darkBlue);
+    background: white;
+    padding: 5px 20px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 800;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.transfer_fifth .title_container .arrow {
+    border: solid;
+    border-width: 0 5px 5px 0;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-color: var(--lightBlue);
+    margin-left: 20px;
+}
+
+.transfer_fifth .info {
+    max-width: 895px;
+    margin: 0 auto;
+}
+
+.transfer_fifth .left {
+    width: 45%;
+    min-width: 45%;
+}
+
+.transfer_fifth .table {
+    width: 68%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.transfer_fifth .thead {
+    display: flex;
+    padding: 24px 51px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    background: var(--lightBlue);
+    border-radius: 8px;
+}
+
+.transfer_fifth .row {
+    background: white;
+    border-radius: 8px;
+    padding: 30px 51px;
+    display: flex;
+}
+
+.transfer_fifth .document>div {
+    display: flex;
+    align-items: center;
+}
+
+.transfer_fifth .infomation>div {
+    display: flex;
+    align-items: center;
+}
+
+.transfer_fifth .btn {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .transfer_fifth {
+        clip-path: polygon(0% 0%, 100% 4%, 100% 100%, 0% 96%);
+        padding: 130px 0;
+    }
+
+    .transfer_fifth .transfer_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .transfer_fifth .title_container {
+        flex-direction: column;
+    }
+
+    .transfer_fifth .title {
+        width: 200px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .transfer_fifth .select {
+        font-size: 35px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .transfer_fifth .table {
+        width: 100%;
+    }
+
+    .transfer_fifth .thead {
+        padding: 24px;
+    }
+
+    .transfer_fifth .left {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .transfer_fifth .row {
+        padding: 30px 24px;
+        flex-direction: column;
+    }
+
+    .transfer_fifth .tbody .left {
+        margin-bottom: 20px;
+    }
+
+    .transfer_fifth .infomation {
+        margin-left: 30px;
+    }
+
+    .transfer_fifth .btn {
+        width: 100%;
+    }
+}

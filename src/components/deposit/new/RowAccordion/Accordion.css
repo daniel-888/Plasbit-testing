@@ -1,0 +1,17 @@
+.deposit_row_accordion .accordion_title {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 27px 20px !important;
+    cursor: pointer !important;
+    border-top: 1px solid #D9E0E9;
+}
+
+.deposit_row_accordion .accordion_content {
+    transition: max-height 0.6s ease !important;
+    overflow: hidden !important;
+}
+
+.deposit_row_accordion .accordion_content>div {
+    padding: 0 25px 27px;
+}

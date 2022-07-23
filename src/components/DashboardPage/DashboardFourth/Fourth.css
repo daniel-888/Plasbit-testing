@@ -1,0 +1,164 @@
+.dashboard_fourth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.dashboard_fourth .card {
+    width: 33%;
+    min-height: 518px;
+    background: white;
+    padding: 30px 20px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard_fourth .card:nth-child(2) {
+    margin: 0 50px;
+}
+
+.dashboard_fourth .card .row:nth-child(2) {
+    border: none;
+}
+
+.dashboard_fourth .card .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 73px;
+    border-top: 1px solid var(--bgDashboard);
+}
+
+.dashboard_fourth .card .view_more {
+    justify-content: center;
+}
+
+.dashboard_fourth .card .arrow {
+    border: solid #d5dde8;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    position: relative;
+}
+
+.dashboard_fourth .wallet .date_time {
+    border: 1px solid var(--bgDashboard);
+    border-radius: 5px;
+}
+
+.dashboard_fourth .wallet .time {
+    background: var(--bgDashboard);
+}
+
+.dashboard_fourth .wallet .date,
+.dashboard_fourth .wallet .time {
+    padding: 3px;
+}
+
+.dashboard_fourth .wallet .sent {
+    width: 100px;
+}
+
+.dashboard_fourth .transaction .up {
+    color: var(--textGreen);
+}
+
+.dashboard_fourth .transaction .down {
+    color: var(--textRed);
+}
+
+.dashboard_fourth .verification .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard_fourth .verification .step {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard_fourth .verification .step .check {
+    align-self: center;
+}
+
+.dashboard_fourth .verification .step .icon {
+    min-width: 52px;
+    min-height: 52px;
+    max-width: 52px;
+    max-height: 52px;
+    width: 52px;
+    height: 52px;
+    border: 2px dotted var(--lightBlue);
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard_fourth .verification .step .icon.verified {
+    border: 1px solid var(--textBlue);
+}
+
+.dashboard_fourth .verification .icon.verified img {
+    min-width: 44px;
+    min-height: 44px;
+    max-width: 44px;
+    max-height: 44px;
+    width: 44px;
+    height: 44px;
+}
+
+.dashboard_fourth .verification .step .description {
+    width: 243px;
+}
+
+.dashboard_fourth .verification .step .description .font_18 {
+    color: var(--lightBlue);
+}
+
+.dashboard_fourth .verification .step .description .font_18.verified {
+    color: var(--textBlue);
+}
+
+.dashboard_fourth .verification .divider {
+    height: 70px;
+    border-right: 3px dotted var(--lightBlue);
+    width: 1px;
+    margin-left: 26px;
+}
+
+.dashboard_fourth .verification .divider.verified {
+    border-right: 2px solid var(--textBlue);
+}
+
+.dashboard_fourth .verification .row {
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .dashboard_fourth {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .dashboard_fourth .card {
+        width: 100%;
+    }
+
+    .dashboard_fourth .card:nth-child(2) {
+        margin: 20px 0;
+    }
+
+    .dashboard_fourth .card .font_18 {
+        font-size: 17px;
+    }
+
+    .dashboard_fourth .verification .step .description {
+        margin-left: 5px;
+    }
+}

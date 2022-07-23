@@ -1,0 +1,43 @@
+.transfer_fourth .tansfer_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.transfer_fourth .tansfer_container img {
+    width: 741px;
+    height: 565px;
+}
+
+.transfer_fourth .faqs {
+    display: block;
+}
+
+.transfer_fourth .transfer_accordion {
+    margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+    .transfer_fourth .title {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .transfer_fourth .tansfer_container {
+        flex-direction: column;
+    }
+
+    .transfer_fourth img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .transfer_fourth .faqs {
+        margin: 40px auto;
+    }
+
+    .transfer_fourth .btn {
+        width: 100%;
+    }
+}

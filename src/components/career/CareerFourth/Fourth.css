@@ -1,0 +1,20 @@
+.career_fourth {
+    width: 90%;
+    max-width: 1200px;
+    margin: 180px auto;
+}
+
+.career_fourth img {
+    margin: 150px 0;
+}
+
+@media (max-width: 768px) {
+    .career_fourth {
+        margin: 50px auto;
+    }
+
+    .career_fourth img {
+        width: 80%;
+        margin: 50px auto;
+    }
+}

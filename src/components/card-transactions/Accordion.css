@@ -1,0 +1,104 @@
+.card_transactions .accordion_card_transaction {
+    background-color: white;
+}
+
+.card_transactions .accordion_card_transaction .accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    outline: none;
+    transition: background-color 0.6s ease;
+}
+
+.card_transactions .accordion_card_transaction .accordion_title {
+    color: var(--textBlue);
+    font-size: 12px;
+    font-weight: bold;
+    flex-basis: 100%;
+}
+
+.card_transactions .accordion_card_transaction .accordion_title .d_flex {
+    height: 53px;
+}
+
+.card_transactions .accordion_card_transaction .details {
+    font-size: 12px;
+}
+
+.card_transactions .accordion_card_transaction .details div {
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    border-radius: 8px;
+    min-width: 66px;
+    text-align: center;
+}
+
+.card_transactions .accordion_card_transaction .accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+.card_transactions .accordion_card_transaction .rotate {
+    transform: rotate(90deg);
+}
+
+.card_transactions .accordion_card_transaction .accordion_content {
+    transition: max-height 0.6s ease;
+    overflow: hidden;
+}
+
+.card_transactions .accordion_card_transaction .accordion_content>div {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid #dce3ef;
+    border-radius: 8px;
+}
+
+.card_transactions .accordion_card_transaction .accordion_content .d_flex {
+    height: 50px;
+}
+
+.card_transactions .accordion_card_transaction .accordion_content .left_text {
+    width: 35%;
+    height: 100%;
+    background-color: #dce3ef;
+    color: var(--textBlue);
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card_transactions .accordion_card_transaction .accordion_content .right_text {
+    width: 65%;
+    height: 100%;
+    color: var(--textBlue);
+    border-top: 1px solid #dce3ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card_transactions .accordion_card_transaction .accordion_content .d_flex:first-child .left_text,
+.card_transactions .accordion_card_transaction .accordion_content .d_flex:first-child .right_text {
+    border-radius: 8px 0 0 0;
+    border-top: none;
+}
+
+.card_transactions .accordion_card_transaction .accordion_content .d_flex:last-child .left_text {
+    border-radius: 0 0 0 8px;
+}
+
+.card_transactions .accordion_card_transaction .text {
+    color: white;
+    line-height: 20px;
+    padding: 20px;
+}

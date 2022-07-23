@@ -1,0 +1,72 @@
+.about_fifth {
+    max-width: 1200px;
+    margin: 0 auto 150px;
+}
+
+.about_fifth .tab_container {
+    display: flex;
+    padding-top: 50px;
+    border-top: 1px solid var(--lightGrey);
+}
+
+.about_fifth .tabs {
+    font-size: 28px;
+}
+
+.about_fifth .tab {
+    width: 300px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.about_fifth .tab.active {
+    color: var(--lightBlue);
+}
+
+.about_fifth .content {
+    display: none;
+}
+
+.about_fifth .content.active {
+    display: block;
+}
+
+.about_fifth .content .text {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .about_fifth .title {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .about_fifth .tab_container {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0;
+        border: none;
+        text-align: center;
+    }
+
+    .about_fifth .accordion_text:first-child {
+        margin-top: 0;
+    }
+
+    .about_fifth .accordion_text .accordion {
+        background: white;
+        border-bottom: 1px solid var(--lightGrey);
+        border-radius: 0;
+        justify-content: center;
+    }
+
+    .about_fifth .accordion_text .accordion.active p {
+        color: var(--lightBlue);
+    }
+
+    .about_fifth .accordion_text .accordion_title,
+    .about_fifth .accordion_text .text {
+        color: var(--textBlue);
+    }
+}

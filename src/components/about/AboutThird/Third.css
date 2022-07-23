@@ -1,0 +1,36 @@
+.about_third {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.about_third .right {
+    padding: 20px 60px;
+}
+
+.about_third .text {
+    margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .about_third {
+        display: block;
+    }
+
+    .about_third .left {
+        text-align: center;
+    }
+
+    .about_third img {
+        width: 90%;
+    }
+
+    .about_third .right {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about_third .right .title {
+        margin: 50px 0 0;
+    }
+}

@@ -1,0 +1,15 @@
+.minimalTableColumn.coinColumn {
+    width: 25%;
+}
+
+.minimalTableColumn.statusColumn {
+    width: 25%;
+}
+
+.minimalTableColumn.amountColumn {
+    width: 25%;
+}
+
+.minimalTableColumn.dateColumn {
+    width: 25%;
+}

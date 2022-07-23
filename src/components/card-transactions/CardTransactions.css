@@ -1,0 +1,124 @@
+.card_transactions .filter_row {
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card_transactions table thead th {
+    background-color: #dae3f0;
+    font-weight: bold;
+}
+
+.card_transactions table tbody tr:nth-child(even) {
+    background-color: #f5f6f8;
+}
+
+.card_transactions .transaction_table table thead th {
+    padding: 10px 8px;
+    max-width: 85px;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: -.7px;
+}
+
+.card_transactions .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background-color: #f5f6f8;
+    height: 3.5em;
+}
+
+.card_transactions .transaction_table table tbody td {
+    padding: 10px 7px;
+    font-size: 13px;
+    font-weight: 600;
+    max-width: 86px;
+    letter-spacing: -1px;
+    border-right: 0.5px solid #f5f6f8;
+}
+
+.card_transactions .transaction_table table tbody td {
+    transition: max-height 1s ease !important;
+    animation-duration: 1s !important;
+    transition-duration: 1s !important;
+}
+
+.card_transactions .transaction_table table tbody td:last-child {
+    padding: 10px 0;
+}
+
+.card_transactions .transaction_table .detail_btn {
+    font-size: 12px;
+    color: white;
+    width: 61px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card_transactions .ant-table-thead th.ant-table-column-has-sorters:hover {
+    background-color: #dae3f0;
+}
+
+.card_transactions .filter {
+    width: 30%;
+}
+
+.card_transactions .accordion_text_transfer:nth-child(odd) .accordion {
+    background-color: #f5f6f8;
+}
+
+.card_transactions .transaction_mob .thead {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #dce3ef;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.card_transactions .transaction_mob .request_date {
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card_transactions .transaction_mob .sent_fiat {
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: solid #f5f6f8;
+    border-width: 0 1px 0 1px;
+}
+
+.card_transactions .transaction_mob .details {
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card_transactions .pagination {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .card_transactions .filter_row {
+        flex-direction: column;
+    }
+
+    .card_transactions .filter {
+        width: 100%;
+    }
+
+    .card_transactions .filter:nth-child(2) {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,11 @@
+.minimalTableColumn.dateColumn {
+    width: 25%;
+}
+
+.minimalTableColumn.totalColumn {
+    width: 10%;
+}
+
+.minimalTableColumn.descriptionColumn {
+    width: 65%;
+}

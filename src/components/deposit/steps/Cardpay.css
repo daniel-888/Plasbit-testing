@@ -1,0 +1,56 @@
+.card_pay {
+
+}
+
+.card_pay .transfer_form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card_pay .transfer_fields {
+    width: 506px;
+}
+
+.card_pay .transfer_fields label{
+    width: 178px;
+}
+
+.card_pay .transfer_fields input,
+.card_pay .transfer_fields select,
+.card_pay .ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    width: 178px;
+}
+
+.card_pay .transfer_qr img{
+    width: 172px;
+    height: auto;
+}
+
+.card_pay .deposit_info {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .card_pay .transfer_fields {
+        width: 90%;
+        text-emphasis: center;
+    }
+
+    .card_pay .deposit_info {
+        display: block;
+    }
+
+    .card_pay .transfer_fields label {
+        margin-bottom: 10px;
+    }
+
+    .card_pay .deposit_infoes {
+        display: block;
+    }
+    .card_pay .deposit_infoes {
+        text-align: center;
+    }
+}
